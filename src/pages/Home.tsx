@@ -55,19 +55,21 @@ const Home = () => {
 
           {/* Profile Photo */}
           <div className="mb-8 animate-fade-in inline-block">
-            <div className="relative">
-              <div className="absolute inset-0 rounded-full bg-primary/20 blur-2xl"></div>
-              <img
-                src={profileImage}
-                alt="Venkata Rao Gonugunta"
-                className="relative w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-primary/50 shadow-2xl glow-primary mx-auto"
-              />
-            </div>
-          </div>
+  <div className="relative">
+    <div className="absolute inset-0 rounded-full bg-primary/20 blur-2xl"></div>
+    <img
+  src={profileImage}
+  alt="Venkata Rao Gonugunta"
+  className="relative w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full object-cover object-top translate-y-2 border-4 border-primary/60 shadow-2xl ring-4 ring-primary/30 mx-auto"
+/>
+
+  </div>
+</div>
+
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in" style={{ animationDelay: "0.1s" }}>
             Hi, I'm{" "}
-            <span className="text-transparent bg-clip-text gradient-primary">
+            <span className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in" style={{ animationDelay: "0.1s" }}>
               Venkata Rao Gonugunta
             </span>
           </h1>
@@ -105,13 +107,13 @@ const Home = () => {
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="file:///E:/Downloads/Venkat_Cloud_Devops_Engineer.pdf" target="_blank" rel="noopener noreferrer">
                 <Eye className="mr-2 h-5 w-5" />
                 View Resume
               </a>
             </Button>
             <Button asChild variant="secondary" size="lg">
-              <a href="#" download>
+              <a href="file:///E:/Downloads/Venkat_Cloud_Devops_Engineer.pdf" download>
                 <FileText className="mr-2 h-5 w-5" />
                 Download Resume
               </a>

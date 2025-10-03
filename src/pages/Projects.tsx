@@ -33,6 +33,15 @@ const projects = [
     demoLink: "#",
     githubLink: "#",
   },
+   {
+    title: "AWS Migration Strategy",
+    description:
+      "Led the migration of legacy on-premise infrastructure to AWS cloud. Utilized Infrastructure as Code with Terraform, automated deployments with Python (Boto3), and achieved 40% cost reduction through resource optimization.",
+    image: cloudImage,
+    tech: ["AWS", "Terraform", "Python", "Boto3", "CloudWatch", "Lambda"],
+    demoLink: "#",
+    githubLink: "#",
+  },
 ];
 
 const Projects = () => {
